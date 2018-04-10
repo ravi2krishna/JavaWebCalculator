@@ -35,15 +35,15 @@ public class Calculator extends HttpServlet
         
         if(request.getParameter("r1")!=null)
         {
-            out.println("<h1 align="center">Addition</h1>"+addFucn(a1, a2));
+            out.println("<h1><center>Addition</center></h1>"+addFucn(a1, a2));
         }
         if(request.getParameter("r2")!=null)
         {
-            out.println("<h1 align="center">Substraction</h1>"+subFucn(a1, a2));
+            out.println("<h1><center>Substraction</center></h1>"+subFucn(a1, a2));
         }
         if(request.getParameter("r3")!=null)
         {
-            out.println("<h1 align="center">Multiplication</h1>"+mulFucn(a1, a2));
+            out.println("<h1><center>Multiplication</center></h1>"+mulFucn(a1, a2));
         }
         RequestDispatcher rd=request.getRequestDispatcher("/index.jsp");  
         rd.include(request, response);  
