@@ -11,7 +11,7 @@
       
       }
         body{
-            background-image:url('http://c7.alamy.com/comp/F04EB2/hp-12c-hewlet-packard-rpn-financial-calculator-with-slipcase-on-a-F04EB2.jpg');
+            background-image:url('http://nvestadvisors.com/wp/wp-content/uploads/2016/06/calculator-background.jpg');
             background-size:cover;
             background-repeat:no-repeat;
         }
