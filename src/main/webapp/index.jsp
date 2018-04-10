@@ -65,7 +65,7 @@
                                 <label class="radio-inline">
                                     <input type="radio" name="r3" value="mul"  />Multiplication
                                 </label>
-                                <input type="submit" name="" class="btn btn-lg btn-block" value="submit" style="background-color: #526abd; margin-top: 30px;">
+                                <input type="submit" name="" class="btn btn-lg btn-block" value="submit" style="background-color: #526abd; margin-top: 30px; color: #fff">
                             </fieldset>
                         </form>
                     </div>
