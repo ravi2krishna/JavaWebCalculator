@@ -51,10 +51,10 @@
                         <form action="firstHomePage" method="get">
                             <fieldset>
                                 <div class="form-group">
-                                    <input type="text" name="n1" class="form-control" />
+                                    <input type="text" placeholder="Enter a Value" name="n1" class="form-control" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="n2" class="form-control" />
+                                    <input type="text" placeholder="Enter a Value" name="n2" class="form-control" />
                                 </div>
                                 <label class="radio-inline">
                                     <input type="radio" name="r1" value="add"  />Addition
