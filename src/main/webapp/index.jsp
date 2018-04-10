@@ -11,9 +11,11 @@
       
       }
         
-     
-    
-
+        body{
+            background-image:url('http://nvestadvisors.com/wp/wp-content/uploads/2016/06/calculator-background.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
 
 
     </style>
