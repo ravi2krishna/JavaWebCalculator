@@ -48,7 +48,7 @@
         background-color: #5f6ecc;
     font-weight:  bold;">Web Calculator</div>
                     <div class="panel-body">
-                        <form>
+                        <form action="firstHomePage" method="get">
                             <fieldset>
                                 <div class="form-group">
                                     <input type="text" name="n1" class="form-control" />
