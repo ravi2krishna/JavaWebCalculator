@@ -10,6 +10,11 @@
         padding-top: 100px; 
       
       }
+        body{
+            background-image:url('http://c7.alamy.com/comp/F04EB2/hp-12c-hewlet-packard-rpn-financial-calculator-with-slipcase-on-a-F04EB2.jpg');
+            background-size:cover;
+            background-repeat:no-repeat;
+        }
     
 
 
