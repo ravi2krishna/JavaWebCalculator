@@ -23,5 +23,27 @@
   </dependencies>
   <build>
     <finalName>WebAppCal</finalName>
-  </build>
+<plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.0</version>
+            <configuration>
+                <reportPlugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>cobertura-maven-plugin</artifactId>
+                        <version>2.5.1</version>
+                        <configuration>
+                            <formats>
+                                <format>html</format>
+                                <format>xml</format>
+                            </formats>
+                        </configuration>
+                    </plugin>
+                </reportPlugins>
+            </configuration>
+        </plugin>
+</plugins>
+</build>
 </project>
