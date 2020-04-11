@@ -1,0 +1,3 @@
+mvn sonar:sonar \
+  -Dsonar.host.url=http://192.168.122.1:9000 \
+  -Dsonar.login=abe96d07c7d2c528db77a164f2605bd485bec651
