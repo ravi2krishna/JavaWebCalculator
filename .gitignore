@@ -86,7 +86,7 @@ hs_err_pid*
 ### Java-Web ###
 ## ignoring target file
 target/
-
+apache-tomcat-7.0.94/
 ### macOS ###
 *.DS_Store
 .AppleDouble
