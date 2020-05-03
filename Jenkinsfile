@@ -4,9 +4,8 @@ pipeline {
    stages {
       stage('Compile') {
          steps {
+            sh 'mvn compile'
             echo 'Code Compiled'
-	    sh 'pwd'
-	    sh 'ls'
          }
       }
       stage('Tests') {
