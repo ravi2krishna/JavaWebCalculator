@@ -5,6 +5,8 @@ pipeline {
       stage('Compile') {
          steps {
             echo 'Code Compiled'
+	    sh 'pwd'
+	    sh 'ls'
          }
       }
       stage('Tests') {
