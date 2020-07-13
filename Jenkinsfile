@@ -9,8 +9,7 @@ pipeline {
         }
            stage('Unit Testing') {
             steps {
-                sh 'sleep 5'
-                echo 'Unit Tests Success'
+                sh 'mvn test'
             }
         }
            stage('Sonar Analysis') {
