@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Validate') {
             steps {
-                sh 'sleep 5'
-                echo 'Validation Success'
+                sh 'ls'
+                sh 'pwd'
             }
         }
            stage('Unit Testing') {
