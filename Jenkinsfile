@@ -4,8 +4,7 @@ pipeline {
     stages {
         stage('Validate') {
             steps {
-                sh 'ls'
-                sh 'pwd'
+                sh 'mvn compile'
             }
         }
            stage('Unit Testing') {
