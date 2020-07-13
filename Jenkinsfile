@@ -15,19 +15,19 @@ pipeline {
            stage('Sonar Analysis') {
             steps {
                 sh 'sleep 5'
-                echo 'Sonar Success'
+                echo 'mvn sonar'
             }
         }
            stage('Publish Nexus') {
             steps {
                 sh 'sleep 5'
-                echo 'Publish Success'
+                echo 'mvn deploy'
             }
         }
            stage('Deploy') {
             steps {
                 sh 'sleep 5'
-                echo 'Deployment Success'
+                echo 'mvn tomact7'
             }
         }
     }
