@@ -20,6 +20,7 @@
 </label>
 <input type="radio" name="r2" value="sub" />subtraction 
 <br />
+<input type="radio" name="r2" value="mul" />product
 
  
 </div>
