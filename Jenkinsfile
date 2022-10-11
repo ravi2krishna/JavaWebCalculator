@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Code validating..'
                 sh 'mvn compile'
-                sh 'mvn clean package'
+                
                 
             }
         }
