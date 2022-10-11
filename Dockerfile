@@ -1,8 +1,14 @@
  #Select Base Image
-FROM tomcat
+FROM maven as build
 WORKDIR /JavaWebCalculator
+COPY . .
+RUN mvn clean 
+RUN mvn package
+
+FROM tomcat
+WORKDIR webapps
 #Update code /usr/local/apache2/htdocs
-COPY . ~/webapps/
+COPY --from=build  ~/target/*.war .
 
 EXPOSE 9999
 
