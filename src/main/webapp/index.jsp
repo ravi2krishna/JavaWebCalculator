@@ -7,15 +7,15 @@
 <body>
 <h1 style="text_align=center">Calculator</h1>
       <form action="firstHomePage" method="get">
-<label>first number:</label>
+<label>first number's:</label>
 <input type="text" name="n1" />
 <br />
-<label>Second number : </label>
+<label>Second number's : </label>
 <input type="text" name="n2" />
 <br />
  <div>
 <label>
-<input type="radio" name="r1" value="add" />addition
+<input type="radio" name="r1" value="add" />additions
 <br />
 </label>
 <label>
